@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import Travel from "./Travel";
+import Travels from "./Travels";
 
 class App extends Component {
   render() {
@@ -12,7 +12,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">My travel</h1>
         </header>
-        <Travel
+        {/* <Travel
             destination="New York"
             country="United States"
             image="https://cdn.connections.be/destinations/NewYork/NYTimesSquare.jpg"
@@ -23,6 +23,9 @@ class App extends Component {
             country="Denmark"
             image="http://tetu.com/content/uploads/2016/07/Sans-titre-2-10.jpg"
             distance="1215 km"
+        /> */}
+
+        <Travels
         />
       </div>
     );
